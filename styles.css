@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    height: 100vh;
+    margin: 0;
+}
+
+#header {
+    background-color: #96b8d6;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+#geuLogo {
+    max-width: 100%; /* Ensures the image fits within its container */
+    max-height: 100%; /* Ensures the image doesn't exceed container height */
+    height: auto; /* Maintains aspect ratio */
+    width: auto; /* Maintains aspect ratio */
+    margin-top: 20px; /* Adjust top margin as needed */
+    margin-right: 20px; /* Adjust right margin as needed */
+    position: absolute; /* Allows positioning adjustments */
+    top: 0; /* Adjust top position as needed */
+    right: 0; /* Adjust right position as needed */
+    object-fit: contain; /* Ensures image maintains aspect ratio */
+}
+
+.theme-blue-gradient {
+    background: linear-gradient(to bottom, #00c6ff, #0072ff);
+    height: 100vh;
+}
+
+#login-full-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.white-box {
+    position: relative;
+    background-color: white;
+    padding: 20px;
+    border-radius: 0; /* No rounded corners */
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0); /* No shadow */
+    display: inline-block; /* Keeps the box size to fit content */
+}
+
+#login-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 0; /* No rounded corners */
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0); /* No shadow */
+    max-width: 350px;
+    width: 100%;
+    box-sizing: border-box; /* Makes padding part of the width */
+}
+
+#login-box-inner {
+    background-color: rgba(128, 128, 128, 0.35);
+    padding: 20px;
+    border-radius: 0; /* No rounded corners */
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-size: 12px; /* Smaller font size for labels */
+}
+
+input {
+    width: calc(100% - 20px); /* Adjusted width to fit inside the box with padding */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 0; /* No rounded corners */
+    box-sizing: border-box;
+    font-size: 12px; /* Smaller font size for input fields */
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 0; /* No rounded corners */
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 12px; /* Smaller font size for button */
+}
+
+#imgclient {
+    display: block;
+    margin: 0 auto;
+}
+
+#captchaBox {
+    background-color: rgba(255, 255, 255, 1); /* Slight transparency for the background */
+    padding: 10px;          /* Padding inside the box */
+    border: 2px solid #000; /* Border around the CAPTCHA box */
+    border-radius: 8px;     /* Optional: Rounded corners for the box */
+    text-align: center;     /* Center the CAPTCHA code inside the box */
+    width: fit-content;     /* Adjust the width to fit the content */
+    margin: auto;           /* Center the box horizontally */
+}
+
+
+#captchaContainer {
+    background-color: #fff; /* White background for the CAPTCHA container */
+    border: 1px solid #ddd; /* Border around the CAPTCHA container */
+    padding: 15px;          /* Padding inside the container */
+    border-radius: 0;      /* No rounded corners for the container */
+    font-size: 12px;       /* Smaller font size for the CAPTCHA code */
+    font-weight: bold;     /* Bold text for the CAPTCHA code */
+    margin-bottom: 10px;   /* Space below the CAPTCHA code */
+}
+
+#captchaCode {
+    background-color: #f9f9f9; /* Light background for CAPTCHA code */
+    border: 1px solid #ddd; /* Border around CAPTCHA code */
+    padding: 15px;
+    border-radius: 0; /* No rounded corners */
+    font-size: 12px; /* Smaller font size */
+    font-weight: bold;
+    margin-bottom: 10px; /* Space between CAPTCHA code and other elements */
+}
+
+.captcha-box {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 0; /* No rounded corners */
+    display: inline-block;
+}
+
+.bubble {
+    background-color: transparent; /* Ensure bubbles are transparent */
+}
