@@ -13,16 +13,16 @@ body {
 }
 
 #geuLogo {
-    max-width: 100%; /* Ensures the image fits within its container */
-    max-height: 100%; /* Ensures the image doesn't exceed container height */
-    height: auto; /* Maintains aspect ratio */
-    width: auto; /* Maintains aspect ratio */
-    margin-top: 20px; /* Adjust top margin as needed */
-    margin-right: 20px; /* Adjust right margin as needed */
-    position: absolute; /* Allows positioning adjustments */
-    top: 0; /* Adjust top position as needed */
-    right: 0; /* Adjust right position as needed */
-    object-fit: contain; /* Ensures image maintains aspect ratio */
+    max-width: 100%; 
+    max-height: 100%; 
+    height: auto;
+    width: auto; 
+    margin-top: 20px; 
+    margin-right: 20px;
+    position: absolute;
+    top: 0; 
+    right: 0; 
+    object-fit: contain; 
 }
 
 .theme-blue-gradient {
@@ -43,25 +43,25 @@ body {
     position: relative;
     background-color: white;
     padding: 20px;
-    border-radius: 0; /* No rounded corners */
-    box-shadow: 0 0 0 rgba(0, 0, 0, 0); /* No shadow */
-    display: inline-block; /* Keeps the box size to fit content */
+    border-radius: 0; 
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0); 
+    display: inline-block; 
 }
 
 #login-box {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
-    border-radius: 0; /* No rounded corners */
-    box-shadow: 0 0 0 rgba(0, 0, 0, 0); /* No shadow */
+    border-radius: 0; 
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0); 
     max-width: 350px;
     width: 100%;
-    box-sizing: border-box; /* Makes padding part of the width */
+    box-sizing: border-box; 
 }
 
 #login-box-inner {
     background-color: rgba(128, 128, 128, 0.35);
     padding: 20px;
-    border-radius: 0; /* No rounded corners */
+    border-radius: 0; 
 }
 
 h2 {
@@ -74,28 +74,28 @@ label {
     display: block;
     margin-bottom: 5px;
     color: #333;
-    font-size: 12px; /* Smaller font size for labels */
+    font-size: 12px; 
 }
 
 input {
-    width: calc(100% - 20px); /* Adjusted width to fit inside the box with padding */
+    width: calc(100% - 20px); 
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
-    border-radius: 0; /* No rounded corners */
+    border-radius: 0;
     box-sizing: border-box;
-    font-size: 12px; /* Smaller font size for input fields */
+    font-size: 12px; 
 }
 
 button {
     background-color: #4CAF50;
     color: white;
     border: none;
-    border-radius: 0; /* No rounded corners */
+    border-radius: 0; 
     padding: 10px;
     cursor: pointer;
     margin-top: 10px;
-    font-size: 12px; /* Smaller font size for button */
+    font-size: 12px; 
 }
 
 #imgclient {
@@ -104,44 +104,44 @@ button {
 }
 
 #captchaBox {
-    background-color: rgba(255, 255, 255, 1); /* Slight transparency for the background */
-    padding: 10px;          /* Padding inside the box */
-    border: 2px solid #000; /* Border around the CAPTCHA box */
-    border-radius: 8px;     /* Optional: Rounded corners for the box */
-    text-align: center;     /* Center the CAPTCHA code inside the box */
-    width: fit-content;     /* Adjust the width to fit the content */
-    margin: auto;           /* Center the box horizontally */
+    background-color: rgba(255, 255, 255, 1); 
+    padding: 10px;         
+    border: 2px solid #000;
+    border-radius: 8px;     
+    text-align: center;     
+    width: fit-content;    
+    margin: auto;           
 }
 
 
 #captchaContainer {
-    background-color: #fff; /* White background for the CAPTCHA container */
-    border: 1px solid #ddd; /* Border around the CAPTCHA container */
-    padding: 15px;          /* Padding inside the container */
-    border-radius: 0;      /* No rounded corners for the container */
-    font-size: 12px;       /* Smaller font size for the CAPTCHA code */
-    font-weight: bold;     /* Bold text for the CAPTCHA code */
-    margin-bottom: 10px;   /* Space below the CAPTCHA code */
+    background-color: #fff; 
+    border: 1px solid #ddd;
+    padding: 15px;        
+    border-radius: 0;
+    font-size: 12px;
+    font-weight: bold; 
+    margin-bottom: 10px;   
 }
 
 #captchaCode {
-    background-color: #f9f9f9; /* Light background for CAPTCHA code */
-    border: 1px solid #ddd; /* Border around CAPTCHA code */
+    background-color: #f9f9f9; 
+    border: 1px solid #ddd;
     padding: 15px;
-    border-radius: 0; /* No rounded corners */
-    font-size: 12px; /* Smaller font size */
+    border-radius: 0; 
+    font-size: 12px; 
     font-weight: bold;
-    margin-bottom: 10px; /* Space between CAPTCHA code and other elements */
+    margin-bottom: 10px; 
 }
 
 .captcha-box {
     background-color: white;
     padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 0; /* No rounded corners */
+    border-radius: 0; 
     display: inline-block;
 }
 
 .bubble {
-    background-color: transparent; /* Ensure bubbles are transparent */
+    background-color: transparent; 
 }
