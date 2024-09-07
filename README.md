@@ -47,6 +47,43 @@ This project demonstrates a phishing attack simulation for educational purposes.
 
 **Note:** This project was tested on macOS 14.6.1.
 
+### Step-by-Step Description
+## User Accesses the Login Page:
+
+- The user navigates to the login page, which displays a form for entering a username, password, and CAPTCHA code.
+- The login form includes input fields for the username and password, a CAPTCHA code displayed within a white box, and a submit button.
+
+
+## User Submits the Login Form:
+
+- The user fills in the username, password, and CAPTCHA code, then submits the form.
+- The form data is sent to the server via a POST request to the /capture route.
+
+
+## Server Captures Credentials:
+
+- The server receives the form data and extracts the username and password.
+- The credentials are appended to a file named credentials.txt for storage.
+- After storing the credentials, the server redirects the user to a fake error page by sending a redirect response to the /error route.
+
+
+## Fake Error Page Handling:
+
+- The server serves a fake error page that displays an error message and a reload button.
+- The error page includes JavaScript to handle automatic redirection after a certain number of reloads.
+
+
+## Reload Counter Management:
+
+- The server uses cookies to keep track of the number of times the user has reloaded the error page.
+- Each time the user reloads the error page, the server increments the reload count stored in a cookie.
+- If the reload count reaches a specified limit (e.g., 3 reloads), the server redirects the user to the actual login site (https://student.geu.ac.in/).
+- If the reload count is below the limit, the server serves the fake error page again and updates the reload count.
+
+
+## Redirection to Actual Login Site:
+
+- Once the reload count reaches the specified limit, the server redirects the user to the actual login site (https://student.geu.ac.in/), making the process appear legitimate.
 
 ## License
 
