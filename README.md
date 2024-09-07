@@ -1,4 +1,4 @@
-# Phishing Demo Project
+# Phishing-Simulation-Training
 
 ## Overview
 
