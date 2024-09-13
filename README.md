@@ -101,10 +101,10 @@ For any questions or feedback, please reach out to [shrinkhalshrinkhal22@gmail.c
 
 By using this repository, you agree to the following terms:
 
-	•	You will only use this project for lawful purposes and educational use.
-	•	You will not deploy or use any part of this project to conduct phishing attacks or other malicious activities.
-	•	The creator of this repository shall not be held responsible for any misuse or illegal activities carried out using the contents of this project.
-	•	You acknowledge that any illegal activity or misuse of this content is solely the responsibility of the individual committing such actions.
+- You will only use this project for lawful purposes and educational use.
+- You will not deploy or use any part of this project to conduct phishing attacks or other malicious activities.
+- The creator of this repository shall not be held responsible for any misuse or illegal activities carried out using the contents of this project.
+- You acknowledge that any illegal activity or misuse of this content is solely the responsibility of the individual committing such actions.
 
 Please ensure compliance with all applicable laws and regulations when using or modifying this content.
 
